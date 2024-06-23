@@ -71,7 +71,7 @@ st.divider()
 
 
 st.subheader('Tabela de dados')
-st.dataframe(df, height=500)
+st.dataframe(df, height=500, hide_index=True)
 
 st.divider()
 
